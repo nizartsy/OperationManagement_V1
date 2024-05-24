@@ -1,0 +1,245 @@
+﻿<Window
+    x:Class="OperationManagement_UI.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:OperationManagement_UI"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Operation Management Studio"
+    Width="1080"
+    Height="720"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+    <Grid Background="#d7d0f0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="4*" />
+            <ColumnDefinition Width="4*" />
+            <ColumnDefinition Width="4*" />
+            <ColumnDefinition Width="4*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.4*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!--  User session details  -->
+        <Border
+            Grid.Row="0"
+            Grid.RowSpan="5"
+            Grid.Column="0"
+            Background="#f2e8fc">
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                <StackPanel Margin="5" Orientation="Vertical">
+                    <Image
+                        Height="30"
+                        Source="../Icons/Images/user_icon.png"
+                        Stretch="Uniform" />
+                    <Label
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Bottom"
+                        Content="John Doe"
+                        FontSize="12"
+                        FontWeight="Bold"
+                        Foreground="#27336f" />
+                </StackPanel>
+            </StackPanel>
+        </Border>
+        <!--  User session details  -->
+
+        <!--  Job Card Entries  -->
+        <Border
+            Grid.Row="1"
+            Grid.Column="1"
+            Width="180"
+            Height="120"
+            Background="#f2f4f7"
+            BorderThickness="1"
+            CornerRadius="10">
+            <Button
+                Background="Transparent"
+                BorderThickness="0"
+                Click="Button_Click">
+                <StackPanel Orientation="Vertical">
+                    <Image
+                        Width="80"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Top"
+                        Source="../Icons/Images/job_card_icon.png"
+                        Stretch="Uniform" />
+                    <Label
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Bottom"
+                        Content="Job Card Entry"
+                        FontSize="12"
+                        FontWeight="Bold"
+                        Foreground="#27336f" />
+                </StackPanel>
+            </Button>
+        </Border>
+        <!--  Job Card Entries  -->
+
+        <!--  View Entries  -->
+        <Border
+            Grid.Row="1"
+            Grid.Column="2"
+            Width="180"
+            Height="120"
+            Background="#f2f4f7"
+            BorderThickness="1"
+            CornerRadius="10">
+            <Button
+                Background="Transparent"
+                BorderThickness="0"
+                Click="View_Entries">
+                <StackPanel Orientation="Vertical">
+                    <Image
+                        Width="80"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Top"
+                        Source="../Icons/Images/view_entries_icon.png"
+                        Stretch="Uniform" />
+                    <Label
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Bottom"
+                        Content="View Entries"
+                        FontSize="12"
+                        FontWeight="Bold"
+                        Foreground="#27336f" />
+                </StackPanel>
+            </Button>
+        </Border>
+        <!--  View Entries  -->
+
+        <!--  View Report  -->
+        <Border
+            Grid.Row="1"
+            Grid.Column="3"
+            Width="180"
+            Height="120"
+            Background="#f2f4f7"
+            BorderThickness="1"
+            CornerRadius="10">
+            <Button
+                Background="Transparent"
+                BorderThickness="0"
+                Click="ViewReport_Click">
+                <StackPanel Orientation="Vertical">
+                    <Image
+                        Width="80"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Top"
+                        Source="../Icons/Images/view_report_icon.png"
+                        Stretch="Uniform" />
+                    <Label
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Bottom"
+                        Content="View Report"
+                        FontSize="12"
+                        FontWeight="Bold"
+                        Foreground="#27336f" />
+                </StackPanel>
+            </Button>
+        </Border>
+        <!--  View Report  -->
+
+        <!--  User management  -->
+        <Border
+            Grid.Row="1"
+            Grid.Column="4"
+            Width="180"
+            Height="120"
+            Background="#f2f4f7"
+            BorderThickness="1"
+            CornerRadius="10">
+            <Button
+                Background="Transparent"
+                BorderThickness="0"
+                Click="View_Entries">
+                <StackPanel Orientation="Vertical">
+                    <Image
+                        Width="80"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Top"
+                        Source="../Icons/Images/manage_accounts.png"
+                        Stretch="Uniform" />
+                    <Label
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Bottom"
+                        Content="User Management"
+                        FontSize="12"
+                        FontWeight="Bold"
+                        Foreground="#27336f" />
+                </StackPanel>
+            </Button>
+        </Border>
+        <!--  User management  -->
+
+        <!--  Settings  -->
+        <Border
+            Grid.Row="2"
+            Grid.Column="1"
+            Width="180"
+            Height="120"
+            Background="#f2f4f7"
+            BorderThickness="1"
+            CornerRadius="10">
+            <Button
+                Background="Transparent"
+                BorderThickness="0"
+                Click="View_Entries">
+                <StackPanel Orientation="Vertical">
+                    <Image
+                        Width="80"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Top"
+                        Source="../Icons/Images/view_settings_super_visor_role.png"
+                        Stretch="Uniform" />
+                    <Label
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Bottom"
+                        Content="Settings"
+                        FontSize="12"
+                        FontWeight="Bold"
+                        Foreground="#27336f" />
+                </StackPanel>
+            </Button>
+        </Border>
+        <!--  Settings  -->
+
+        <!--  DashBoard  -->
+        <Border
+            Grid.Row="2"
+            Grid.Column="2"
+            Width="180"
+            Height="120"
+            Background="#f2f4f7"
+            BorderThickness="1"
+            CornerRadius="10">
+            <Button
+                Background="Transparent"
+                BorderThickness="0"
+                Click="View_Dashboard">
+                <StackPanel Orientation="Vertical">
+                    <Image
+                        Width="80"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Top"
+                        Source="../Icons/Images/dashboartd_icon_mainmenu.png"
+                        Stretch="Uniform" />
+                    <Label
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Bottom"
+                        Content="Dashboard"
+                        FontSize="12"
+                        FontWeight="Bold"
+                        Foreground="#27336f" />
+                </StackPanel>
+            </Button>
+        </Border>
+        <!--  DashBoard  -->
+    </Grid>
+</Window>

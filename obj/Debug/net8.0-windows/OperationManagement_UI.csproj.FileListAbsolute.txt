@@ -1,0 +1,87 @@
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\ConsigneeDetailsView.g.cs
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\ConsignmentDetailsView.g.cs
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\JobCardView.g.cs
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\ShipperDetailsView.g.cs
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\TruckDetailsView.g.cs
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\App.g.cs
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI_MarkupCompile.cache
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI_MarkupCompile.lref
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\bin\Debug\net8.0-windows\OperationManagement_UI.exe
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\bin\Debug\net8.0-windows\OperationManagement_UI.deps.json
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\bin\Debug\net8.0-windows\OperationManagement_UI.runtimeconfig.json
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\bin\Debug\net8.0-windows\OperationManagement_UI.dll
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\bin\Debug\net8.0-windows\OperationManagement_UI.pdb
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\ConsigneeDetailsView.baml
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\ConsignmentDetailsView.baml
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\JobCardView.baml
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\ShipperDetailsView.baml
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\TruckDetailsView.baml
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI.g.resources
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI.AssemblyInfoInputs.cache
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI.AssemblyInfo.cs
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI.csproj.CoreCompileInputs.cache
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI.dll
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\refint\OperationManagement_UI.dll
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI.pdb
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI.genruntimeconfig.cache
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\ref\OperationManagement_UI.dll
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\JobCardMainView.g.cs
+D:\Free Lance work\Aljazzi\WPF\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\JobCardMainView.baml
+D:\github\Ops\OperationManagement\OperationManagement_UI\bin\Debug\net8.0-windows\OperationManagement_UI.exe
+D:\github\Ops\OperationManagement\OperationManagement_UI\bin\Debug\net8.0-windows\OperationManagement_UI.deps.json
+D:\github\Ops\OperationManagement\OperationManagement_UI\bin\Debug\net8.0-windows\OperationManagement_UI.runtimeconfig.json
+D:\github\Ops\OperationManagement\OperationManagement_UI\bin\Debug\net8.0-windows\OperationManagement_UI.dll
+D:\github\Ops\OperationManagement\OperationManagement_UI\bin\Debug\net8.0-windows\OperationManagement_UI.pdb
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Style\ViewStyle.baml
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\ConsigneeDetailsView.baml
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\ConsignmentDetailsView.baml
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\CostEntryPopupView.baml
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\JobCardMainView.g.cs
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\ConsigneeDetailsView.g.cs
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\ConsignmentDetailsView.g.cs
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\CostDetailsView.g.cs
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\CostEntryPopupView.g.cs
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\EntryView.g.cs
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\JobCardView.g.cs
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\ReportView.g.cs
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\SaleEntryPopupView.g.cs
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\SalesDetailsView.g.cs
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\ShipperDetailsView.g.cs
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\TruckDetailEntryPopup.g.cs
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\TruckDetailsView.g.cs
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\App.g.cs
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI_MarkupCompile.cache
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI_MarkupCompile.lref
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\JobCardMainView.baml
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\MainWindow.baml
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\CostDetailsView.baml
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\EntryView.baml
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\JobCardView.baml
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\ReportView.baml
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\SaleEntryPopupView.baml
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\SalesDetailsView.baml
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\ShipperDetailsView.baml
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\TruckDetailEntryPopup.baml
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\TruckDetailsView.baml
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI.g.resources
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI.AssemblyInfoInputs.cache
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI.AssemblyInfo.cs
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI.csproj.CoreCompileInputs.cache
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI.sourcelink.json
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI.dll
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\refint\OperationManagement_UI.dll
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI.pdb
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI.genruntimeconfig.cache
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\ref\OperationManagement_UI.dll
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\DashboardView.g.cs
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Views\DashboardView.baml
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\OperationManagement_UI.csproj.AssemblyReference.cache
+D:\github\Ops\OperationManagement\OperationManagement_UI\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\Operatio.26A01DC2.Up2Date
