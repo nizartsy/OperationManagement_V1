@@ -24,7 +24,6 @@ namespace OperationManagement_UI.Views
         public ShipperDetailsView()
         {
             InitializeComponent();
-            this.DataContext = new ShipperDetailsViewModel();
         }
     }
 }

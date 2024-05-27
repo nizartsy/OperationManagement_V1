@@ -24,14 +24,6 @@ namespace OperationManagement_UI.Views
 		public CostDetailsView()
 		{
 			InitializeComponent();
-			this.DataContext = new CostDetailsViewModel();
-		}
-
-		private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
-		{
-			var vendorEntryPopup = new CostEntryPopupView();
-			vendorEntryPopup.WindowStartupLocation = WindowStartupLocation.CenterScreen;
-			vendorEntryPopup.ShowDialog();
 		}
 	}
 }

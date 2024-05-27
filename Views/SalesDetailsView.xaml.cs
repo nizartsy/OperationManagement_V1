@@ -24,7 +24,6 @@ namespace OperationManagement_UI.Views
 		public SalesDetailsView()
 		{
 			InitializeComponent();
-			this.DataContext = new SaleDetailsViewModel();
 		}
 	}
 }

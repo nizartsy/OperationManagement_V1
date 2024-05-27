@@ -89,7 +89,7 @@
                 BorderThickness="0"
                 FontSize="14"
                 FontWeight="Medium"
-                Text="{Binding Qty}" />
+                Text="{Binding Quantity}" />
         </Border>
 
         <Border
@@ -171,7 +171,8 @@
                     Width="125"
                     Background="Transparent"
                     BorderBrush="Transparent"
-                    BorderThickness="0">
+                    BorderThickness="0"
+                    Command="{Binding SaveCostDetailsCommand}">
                     <StackPanel Orientation="Horizontal">
                         <Label Content="Add" />
                         <Image Width="25" Source="../Icons/Images/add_icon.png" />
@@ -193,7 +194,8 @@
                     Width="125"
                     Background="Transparent"
                     BorderBrush="Transparent"
-                    BorderThickness="0">
+                    BorderThickness="0"
+                    Command="{Binding ClearCostDetailsFieldCommand}">
                     <StackPanel Orientation="Horizontal">
                         <Label Content="Clear" />
                         <Image Width="25" Source="../Icons/Images/delete.png" />

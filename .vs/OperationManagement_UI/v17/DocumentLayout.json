@@ -1,0 +1,608 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\core\\dataadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:core\\dataadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\viewmodel\\jobcardmainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:viewmodel\\jobcardmainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\viewmodel\\costdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:viewmodel\\costdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\github\\OpsManagementNew\\OperationManagement_UI\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\jobcardmainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:jobcardmainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\viewmodel\\truckdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:viewmodel\\truckdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\views\\jobcardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:views\\jobcardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\views\\truckdetailsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:views\\truckdetailsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\views\\truckdetailsview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:views\\truckdetailsview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\viewmodel\\jobcardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:viewmodel\\jobcardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\views\\shipperdetailsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:views\\shipperdetailsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\views\\costdetailsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:views\\costdetailsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\views\\salesdetailsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:views\\salesdetailsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\jobcardmainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:jobcardmainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\views\\jobcardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:views\\jobcardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\viewmodel\\consigneedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:viewmodel\\consigneedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\viewmodel\\shipperdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:viewmodel\\shipperdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\model\\shipper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:model\\shipper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\viewmodel\\consignmentdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:viewmodel\\consignmentdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\views\\salesdetailsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:views\\salesdetailsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\viewmodel\\saledetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:viewmodel\\saledetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nizar.ahammad\\AppData\\Local\\SourceServer\\69784db1f49ca7051a844a5dbb93a2a906b636716199dc7e19d887f4224af5a4\\src\\libraries\\Microsoft.Extensions.DependencyInjection.Abstractions\\src\\ServiceProviderServiceExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nizar.ahammad\\AppData\\Local\\SourceServer\\933789496d01417e10375150e8fd985bb0d6f78a9a8b5e97493f77138268095f\\src\\libraries\\System.Private.CoreLib\\src\\System\\DefaultBinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nizar.ahammad\\AppData\\Local\\SourceServer\\952afee1e4a35703362890d7cf793aed63695b4db90ad3f48518e5862e81ccb7\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\ExecutionContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nizar.ahammad\\AppData\\Local\\SourceServer\\aa6fcb9ce4f19b1ba529e280895a6d3df3a65845bffad830da8b4a3305dfe20d\\src\\Microsoft.DotNet.Wpf\\src\\PresentationFramework\\System\\Windows\\Markup\\WpfXamlLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nizar.ahammad\\AppData\\Local\\SourceServer\\495a9e6fadf0f7740d2dd22beea3466247b272997f987364191a6cc561ed4fbc\\src\\Microsoft.DotNet.Wpf\\src\\System.Xaml\\System\\Xaml\\Runtime\\ClrObjectRuntime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\interface\\idataadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:interface\\idataadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|d:\\github\\opsmanagementnew\\operationmanagement_ui\\model\\costdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78F72C5-A6BB-49C7-894C-D42412EEBB6C}|OperationManagement_UI.csproj|solutionrelative:model\\costdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 37,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.g.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\App.g.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\App.g.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAjwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T11:56:49.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TruckDetailsView.xaml.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Views\\TruckDetailsView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TruckDetailsView.xaml.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Views\\TruckDetailsView.xaml.cs",
+              "RelativeToolTip": "Views\\TruckDetailsView.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T09:31:37.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CostDetailsView.xaml.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Views\\CostDetailsView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\CostDetailsView.xaml.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Views\\CostDetailsView.xaml.cs",
+              "RelativeToolTip": "Views\\CostDetailsView.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T09:30:02.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SalesDetailsView.xaml.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Views\\SalesDetailsView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SalesDetailsView.xaml.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Views\\SalesDetailsView.xaml.cs",
+              "RelativeToolTip": "Views\\SalesDetailsView.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T09:29:17.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ShipperDetailsView.xaml.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Views\\ShipperDetailsView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ShipperDetailsView.xaml.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Views\\ShipperDetailsView.xaml.cs",
+              "RelativeToolTip": "Views\\ShipperDetailsView.xaml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T09:27:33.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JobCardView.xaml",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Views\\JobCardView.xaml",
+              "RelativeDocumentMoniker": "Views\\JobCardView.xaml",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Views\\JobCardView.xaml",
+              "RelativeToolTip": "Views\\JobCardView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-27T09:05:29.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "JobCardView.xaml.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Views\\JobCardView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\JobCardView.xaml.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Views\\JobCardView.xaml.cs",
+              "RelativeToolTip": "Views\\JobCardView.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwBkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T09:04:09.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JobCardMainView.xaml",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\JobCardMainView.xaml",
+              "RelativeDocumentMoniker": "JobCardMainView.xaml",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\JobCardMainView.xaml",
+              "RelativeToolTip": "JobCardMainView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-27T09:03:49.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ConsigneeDetailsViewModel.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\ViewModel\\ConsigneeDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ConsigneeDetailsViewModel.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\ViewModel\\ConsigneeDetailsViewModel.cs",
+              "RelativeToolTip": "ViewModel\\ConsigneeDetailsViewModel.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAiwCMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T09:03:19.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ShipperDetailsViewModel.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\ViewModel\\ShipperDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ShipperDetailsViewModel.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\ViewModel\\ShipperDetailsViewModel.cs",
+              "RelativeToolTip": "ViewModel\\ShipperDetailsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T04:15:12.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Shipper.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Model\\Shipper.cs",
+              "RelativeDocumentMoniker": "Model\\Shipper.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Model\\Shipper.cs",
+              "RelativeToolTip": "Model\\Shipper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T04:17:32.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ConsignmentDetailsViewModel.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\ViewModel\\ConsignmentDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ConsignmentDetailsViewModel.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\ViewModel\\ConsignmentDetailsViewModel.cs",
+              "RelativeToolTip": "ViewModel\\ConsignmentDetailsViewModel.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowAUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T04:16:20.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SalesDetailsView.xaml",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Views\\SalesDetailsView.xaml",
+              "RelativeDocumentMoniker": "Views\\SalesDetailsView.xaml",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Views\\SalesDetailsView.xaml",
+              "RelativeToolTip": "Views\\SalesDetailsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-27T04:13:13.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TruckDetailsView.xaml",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Views\\TruckDetailsView.xaml",
+              "RelativeDocumentMoniker": "Views\\TruckDetailsView.xaml",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Views\\TruckDetailsView.xaml",
+              "RelativeToolTip": "Views\\TruckDetailsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-27T04:12:52.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\ViewModel\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\MainWindowViewModel.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\ViewModel\\MainWindowViewModel.cs",
+              "RelativeToolTip": "ViewModel\\MainWindowViewModel.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAswDkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T03:48:09.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ServiceProviderServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\nizar.ahammad\\AppData\\Local\\SourceServer\\69784db1f49ca7051a844a5dbb93a2a906b636716199dc7e19d887f4224af5a4\\src\\libraries\\Microsoft.Extensions.DependencyInjection.Abstractions\\src\\ServiceProviderServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\nizar.ahammad\\AppData\\Local\\SourceServer\\69784db1f49ca7051a844a5dbb93a2a906b636716199dc7e19d887f4224af5a4\\src\\libraries\\Microsoft.Extensions.DependencyInjection.Abstractions\\src\\ServiceProviderServiceExtensions.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAjwC8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T03:16:23.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ExecutionContext.cs",
+              "DocumentMoniker": "C:\\Users\\nizar.ahammad\\AppData\\Local\\SourceServer\\952afee1e4a35703362890d7cf793aed63695b4db90ad3f48518e5862e81ccb7\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\ExecutionContext.cs",
+              "ToolTip": "C:\\Users\\nizar.ahammad\\AppData\\Local\\SourceServer\\952afee1e4a35703362890d7cf793aed63695b4db90ad3f48518e5862e81ccb7\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\ExecutionContext.cs",
+              "ViewState": "AQIAALwAAAAAAAAAAAAjwMoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T04:27:58.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "WpfXamlLoader.cs",
+              "DocumentMoniker": "C:\\Users\\nizar.ahammad\\AppData\\Local\\SourceServer\\aa6fcb9ce4f19b1ba529e280895a6d3df3a65845bffad830da8b4a3305dfe20d\\src\\Microsoft.DotNet.Wpf\\src\\PresentationFramework\\System\\Windows\\Markup\\WpfXamlLoader.cs",
+              "ToolTip": "C:\\Users\\nizar.ahammad\\AppData\\Local\\SourceServer\\aa6fcb9ce4f19b1ba529e280895a6d3df3a65845bffad830da8b4a3305dfe20d\\src\\Microsoft.DotNet.Wpf\\src\\PresentationFramework\\System\\Windows\\Markup\\WpfXamlLoader.cs",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAjwKwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T04:27:56.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ClrObjectRuntime.cs",
+              "DocumentMoniker": "C:\\Users\\nizar.ahammad\\AppData\\Local\\SourceServer\\495a9e6fadf0f7740d2dd22beea3466247b272997f987364191a6cc561ed4fbc\\src\\Microsoft.DotNet.Wpf\\src\\System.Xaml\\System\\Xaml\\Runtime\\ClrObjectRuntime.cs",
+              "ToolTip": "C:\\Users\\nizar.ahammad\\AppData\\Local\\SourceServer\\495a9e6fadf0f7740d2dd22beea3466247b272997f987364191a6cc561ed4fbc\\src\\Microsoft.DotNet.Wpf\\src\\System.Xaml\\System\\Xaml\\Runtime\\ClrObjectRuntime.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAjwDwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T04:27:51.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DefaultBinder.cs",
+              "DocumentMoniker": "C:\\Users\\nizar.ahammad\\AppData\\Local\\SourceServer\\933789496d01417e10375150e8fd985bb0d6f78a9a8b5e97493f77138268095f\\src\\libraries\\System.Private.CoreLib\\src\\System\\DefaultBinder.cs",
+              "ToolTip": "C:\\Users\\nizar.ahammad\\AppData\\Local\\SourceServer\\933789496d01417e10375150e8fd985bb0d6f78a9a8b5e97493f77138268095f\\src\\libraries\\System.Private.CoreLib\\src\\System\\DefaultBinder.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAjwDkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T04:23:31.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T04:17:55.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "JobCardMainView.xaml.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\JobCardMainView.xaml.cs",
+              "RelativeDocumentMoniker": "JobCardMainView.xaml.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\JobCardMainView.xaml.cs",
+              "RelativeToolTip": "JobCardMainView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T04:17:41.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-26T04:15:59.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-26T04:00:38.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAjwCEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T04:00:23.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T04:00:11.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataAdapter.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Core\\DataAdapter.cs",
+              "RelativeDocumentMoniker": "Core\\DataAdapter.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Core\\DataAdapter.cs",
+              "RelativeToolTip": "Core\\DataAdapter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T03:48:44.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IDataAdapter.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Interface\\IDataAdapter.cs",
+              "RelativeDocumentMoniker": "Interface\\IDataAdapter.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Interface\\IDataAdapter.cs",
+              "RelativeToolTip": "Interface\\IDataAdapter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T03:47:22.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JobCardViewModel.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\ViewModel\\JobCardViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\JobCardViewModel.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\ViewModel\\JobCardViewModel.cs",
+              "RelativeToolTip": "ViewModel\\JobCardViewModel.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAiwEgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T03:43:58.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JobCardMainViewModel.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\ViewModel\\JobCardMainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\JobCardMainViewModel.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\ViewModel\\JobCardMainViewModel.cs",
+              "RelativeToolTip": "ViewModel\\JobCardMainViewModel.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAewEUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T03:43:33.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TruckDetailsViewModel.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\ViewModel\\TruckDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\TruckDetailsViewModel.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\ViewModel\\TruckDetailsViewModel.cs",
+              "RelativeToolTip": "ViewModel\\TruckDetailsViewModel.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBQAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T03:39:09.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SaleDetailsViewModel.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\ViewModel\\SaleDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\SaleDetailsViewModel.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\ViewModel\\SaleDetailsViewModel.cs",
+              "RelativeToolTip": "ViewModel\\SaleDetailsViewModel.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAwCQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T03:36:15.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CostDetails.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Model\\CostDetails.cs",
+              "RelativeDocumentMoniker": "Model\\CostDetails.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\Model\\CostDetails.cs",
+              "RelativeToolTip": "Model\\CostDetails.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:16:16.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CostDetailsViewModel.cs",
+              "DocumentMoniker": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\ViewModel\\CostDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\CostDetailsViewModel.cs",
+              "ToolTip": "D:\\github\\OpsManagementNew\\OperationManagement_UI\\ViewModel\\CostDetailsViewModel.cs",
+              "RelativeToolTip": "ViewModel\\CostDetailsViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:11:51.472Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

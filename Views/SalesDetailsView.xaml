@@ -42,7 +42,7 @@
         <ScrollViewer Grid.Row="1">
             <!--  Truck details data  -->
             <Grid>
-                <ItemsControl ItemsSource="{Binding SaleEntryPopupViewModel}">
+                <ItemsControl ItemsSource="{Binding SaleDetailsCollection}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
                             <Border

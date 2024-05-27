@@ -3,12 +3,13 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:local="clr-namespace:OperationManagement_UI"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:uc="clr-namespace:OperationManagement_UI.Views"
+    xmlns:viewmodel="clr-namespace:OperationManagement_UI.ViewModel"
     Title="JobCardMainView"
     Width="1080"
     Height="780"
+    d:DataContext="{d:DesignInstance Type=viewmodel:JobCardMainViewModel}"
     FontFamily="Segoe UI"
     ResizeMode="CanMinimize"
     WindowStartupLocation="CenterScreen"
@@ -63,7 +64,7 @@
                                 FontSize="14"
                                 FontWeight="Medium"
                                 Foreground="Black" />
-                            <uc:JobCardView Margin="5" />
+                            <uc:JobCardView Margin="5" DataContext="{Binding Path=JobCardViewModel}" />
                         </StackPanel>
                     </Border>
                     <!--  JobCard  -->
@@ -86,7 +87,7 @@
                                 FontSize="14"
                                 FontWeight="Medium"
                                 Foreground="Black" />
-                            <uc:ConsignmentDetailsView Margin="5" />
+                            <uc:ConsignmentDetailsView Margin="5" DataContext="{Binding Path=ConsignmentDetailsViewModel}" />
                         </StackPanel>
                     </Border>
                     <!--  Consignment Details  -->
@@ -108,7 +109,7 @@
                                 FontSize="14"
                                 FontWeight="Medium"
                                 Foreground="Black" />
-                            <uc:ShipperDetailsView Margin="5" />
+                            <uc:ShipperDetailsView Margin="5" DataContext="{Binding Path=ShipperDetailsViewModel}" />
                         </StackPanel>
                     </Border>
                     <!--  Shipper Details  -->
@@ -130,7 +131,10 @@
                                 FontSize="14"
                                 FontWeight="Medium"
                                 Foreground="Black" />
-                            <uc:ConsigneeDetailsView Margin="5" Background="Transparent" />
+                            <uc:ConsigneeDetailsView
+                                Margin="5"
+                                Background="Transparent"
+                                DataContext="{Binding Path=ConsigneeDetailsViewModel}" />
                         </StackPanel>
                     </Border>
                     <!--  Consignee Details  -->
@@ -146,7 +150,10 @@
                         Background="#f3f6fd"
                         BorderThickness="0"
                         CornerRadius="10">
-                        <uc:TruckDetailsView Margin="5" Background="Transparent" />
+                        <uc:TruckDetailsView
+                            Margin="5"
+                            Background="Transparent"
+                            DataContext="{Binding Path=TruckDetailsViewModel}" />
                     </Border>
                     <!--  Truck Details  -->
 
@@ -161,7 +168,10 @@
                         Background="#f3f6fd"
                         BorderThickness="0"
                         CornerRadius="10">
-                        <uc:SalesDetailsView Margin="5" Background="Transparent" />
+                        <uc:SalesDetailsView
+                            Margin="5"
+                            Background="Transparent"
+                            DataContext="{Binding Path=SaleDetailsViewModel}" />
                     </Border>
                     <!--  Sales Details  -->
 
@@ -176,7 +186,10 @@
                         Background="#f3f6fd"
                         BorderThickness="0"
                         CornerRadius="10">
-                        <uc:CostDetailsView Margin="5" Background="Transparent" />
+                        <uc:CostDetailsView
+                            Margin="5"
+                            Background="Transparent"
+                            DataContext="{Binding Path=CostDetailsViewModel}" />
                     </Border>
                     <!--  Vendor / cost Details  -->
 

@@ -3,9 +3,7 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:local="clr-namespace:OperationManagement_UI.Views"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:vm="clr-namespace:OperationManagement_UI.ViewModel"
     d:DesignHeight="150"
     d:DesignWidth="1000"
     mc:Ignorable="d">
@@ -43,7 +41,7 @@
         <ScrollViewer Grid.Row="1">
             <!--  Truck details data  -->
             <Grid>
-                <ItemsControl Name="TruckDetailsControl" ItemsSource="{Binding TruckDetailsEntryPopupViewModel}">
+                <ItemsControl Name="TruckDetailsControl" ItemsSource="{Binding TruckDetailsCollection}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
                             <Border

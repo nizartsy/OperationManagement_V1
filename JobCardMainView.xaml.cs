@@ -1,6 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
+using OperationManagement_UI.Interface;
 using OperationManagement_UI.ViewModel;
 using OperationManagement_UI.Views;
 
@@ -14,7 +15,6 @@ namespace OperationManagement_UI
 		public JobCardMainView()
 		{
 			InitializeComponent();
-			this.DataContext = new JobCardMainViewModel();
 		}
 	}
 }

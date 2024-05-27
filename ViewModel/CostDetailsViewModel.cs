@@ -1,49 +1,75 @@
 ﻿using System.Collections.ObjectModel;
+using System.Windows.Input;
+using Newtonsoft.Json;
+using OperationManagement_UI.Command;
+using OperationManagement_UI.Model;
+using OperationManagement_UI.Views;
 
 namespace OperationManagement_UI.ViewModel
 {
 	public class CostDetailsViewModel : ViewModelBase
 	{
-		private int _slNO;
-		public int SLNO
-		{
-			get { return _slNO; }
-			set => SetValue(ref _slNO, value, nameof(SLNO));
-		}
+		private ObservableCollection<CostDetails>? _costDetailsCollection;
 
-		private ObservableCollection<CostDetailsEntryPopupViewModel> _costDetailsEntryPopupViewModel;
-
-		public ObservableCollection<CostDetailsEntryPopupViewModel> CostDetailsEntryPopupViewModel
+		public ObservableCollection<CostDetails>? CostDetailsCollection
 		{
-			get { return _costDetailsEntryPopupViewModel; }
-			set => SetValue(ref _costDetailsEntryPopupViewModel, value, nameof(CostDetailsEntryPopupViewModel));
+			get => _costDetailsCollection;
+			set => SetValue(ref _costDetailsCollection, value, nameof(CostDetailsCollection));
 		}
 
 		// Default constructor
 		public CostDetailsViewModel()
 		{
 			// Initialize the ObservableCollection
-			CostDetailsEntryPopupViewModel = new ObservableCollection<CostDetailsEntryPopupViewModel>();
-
-			CostDetailsEntryPopupViewModel.Add(new CostDetailsEntryPopupViewModel
+			CostDetailsCollection = new ObservableCollection<CostDetails>
 			{
-				Particular = "Hire Small Truck",
-				Quantity = 1,
-				Unit = 2,
-				Amount = 20,
-				Total = 40,
-				Id = Guid.NewGuid()
-			});
+				new(new Vendor(new Guid(),"ABC RoadWays",null),1,2,20,40,Guid.NewGuid()),
+				new(new Vendor(new Guid(),"ABC RoadWays",null),1,4,20,80,Guid.NewGuid())
+			};
 
-			CostDetailsEntryPopupViewModel.Add(new CostDetailsEntryPopupViewModel
+			OpenCostEditPopupWindowCommand = new RelayCommand(OpenCostEditPopup);
+			EditCostDetailsCommand = new RelayCommand(EditCostDetails);
+			DeleteCostDetailsCommand = new RelayCommand(DeleteCostDetails);
+		}
+
+		private void DeleteCostDetails(object obj)
+		{
+			if (obj is CostDetails costDetails)
 			{
-				Particular = "Hire Dyna Truck",
-				Quantity = 1,
-				Unit = 4,
-				Amount = 20,
-				Total = 80,
-				Id = Guid.NewGuid()
-			});
+				_costDetailsCollection?.Remove(costDetails);
+			}
+		}
+
+		private void EditCostDetails(object obj)
+		{
+			if (obj is not CostDetails costDetails) return;
+
+			var costDetailsWindow = new CostEntryPopupView(_costDetailsCollection, costDetails);
+			costDetailsWindow.ShowDialog();
+		}
+
+		private void OpenCostEditPopup(object obj)
+		{
+			var costDetailsWindow = new CostEntryPopupView(_costDetailsCollection,new CostDetails());
+			costDetailsWindow.ShowDialog();
+		}
+
+		public ICommand OpenCostEditPopupWindowCommand { get; }
+		public ICommand EditCostDetailsCommand { get; }
+		public ICommand DeleteCostDetailsCommand { get; }
+
+		public string GetJsonString()
+		{
+			return _costDetailsCollection != null ? JsonConvert.SerializeObject(_costDetailsCollection) : string.Empty;
+		}
+
+		public void GetObjectFromString(string jsonString)
+		{
+			var costDetailsCollection = JsonConvert.DeserializeObject(jsonString);
+
+			if (costDetailsCollection is not ObservableCollection<CostDetails> costDetailsViewModel) return;
+
+			_costDetailsCollection = new ObservableCollection<CostDetails>(costDetailsViewModel);
 		}
 	}
 }

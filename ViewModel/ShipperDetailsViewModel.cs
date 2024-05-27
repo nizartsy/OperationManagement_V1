@@ -38,6 +38,12 @@ namespace OperationManagement_UI.ViewModel
             // Initialize fields if needed
             _id = Guid.NewGuid(); // Assign a new unique ID by default
             _customer = new Customer(new Guid()); // Initialize Customer object
+            _shipper = new Shipper()
+            {
+	            AdditionalNote = "Nothing Much",
+	            Customer = _customer,
+	            Id = new Guid(),
+            };
         }
         public ShipperDetailsViewModel(Shipper? shipper)
         {

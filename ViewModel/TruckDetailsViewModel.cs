@@ -1,5 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 using System.Windows.Input;
+using Newtonsoft.Json;
 using OperationManagement_UI.Command;
 using OperationManagement_UI.Model;
 using OperationManagement_UI.Views;
@@ -17,10 +18,10 @@ namespace OperationManagement_UI.ViewModel
 
 		private ObservableCollection<TruckDetails>? _truckDetailsCollection;
 
-		public ObservableCollection<TruckDetails>? TruckDetailsEntryPopupViewModel
+		public ObservableCollection<TruckDetails>? TruckDetailsCollection
 		{
 			get => _truckDetailsCollection;
-			set => SetValue(ref _truckDetailsCollection, value, nameof(TruckDetailsEntryPopupViewModel));
+			set => SetValue(ref _truckDetailsCollection, value, nameof(TruckDetailsCollection));
 		}
 
 
@@ -42,7 +43,7 @@ namespace OperationManagement_UI.ViewModel
 				new RelayCommand(DeleteTruckDetails);
 
 			// Initialize the ObservableCollection
-			TruckDetailsEntryPopupViewModel = new ObservableCollection<TruckDetails>
+			TruckDetailsCollection = new ObservableCollection<TruckDetails>
 			{
 				new()
 				{
@@ -93,6 +94,20 @@ namespace OperationManagement_UI.ViewModel
 
 			var truckDetailsWindow = new TruckDetailEntryPopup(_truckDetailsCollection, new TruckDetails());
 			truckDetailsWindow.ShowDialog();
+		}
+
+		public string GetJsonString()
+		{
+			return _truckDetailsCollection != null ? JsonConvert.SerializeObject(_truckDetailsCollection) : string.Empty;
+		}
+
+		public void GetObjectFromString(string jsonString)
+		{
+			var truckDetailsCollection = JsonConvert.DeserializeObject(jsonString);
+
+			if (truckDetailsCollection is not ObservableCollection<TruckDetails> truckDetails) return;
+
+			_truckDetailsCollection = new ObservableCollection<TruckDetails>(truckDetails);
 		}
 	}
 }

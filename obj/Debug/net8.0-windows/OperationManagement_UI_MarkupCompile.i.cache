@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\github\Ops\OperationManagement\OperationManagement_UI\obj\Debug\net8.0-windows\
+D:\github\OpsManagementNew\OperationManagement_UI\obj\Debug\net8.0-windows\
 OperationManagement_UI
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\github\Ops\OperationManagement\OperationManagement_UI\App.xaml
+D:\github\OpsManagementNew\OperationManagement_UI\App.xaml
 16-981944942
 
-431318538320
-199425522831
+47-113211304
+226-390073654
 JobCardMainView.xaml;MainWindow.xaml;Style\ViewStyle.xaml;Views\ConsigneeDetailsView.xaml;Views\ConsignmentDetailsView.xaml;Views\CostDetailsView.xaml;Views\CostEntryPopupView.xaml;Views\DashboardView.xaml;Views\EntryView.xaml;Views\JobCardView.xaml;Views\ReportView.xaml;Views\SaleEntryPopupView.xaml;Views\SalesDetailsView.xaml;Views\ShipperDetailsView.xaml;Views\TruckDetailEntryPopup.xaml;Views\TruckDetailsView.xaml;
 
-True
+False
 

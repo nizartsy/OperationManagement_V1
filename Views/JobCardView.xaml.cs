@@ -24,7 +24,6 @@ namespace OperationManagement_UI.Views
         public JobCardView()
         {
             InitializeComponent();
-            this.DataContext = new JobCardViewModel();
         }
     }
 }

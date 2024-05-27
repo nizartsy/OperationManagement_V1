@@ -24,7 +24,6 @@ namespace OperationManagement_UI.Views
 		public TruckDetailsView()
 		{
 			InitializeComponent();
-			this.DataContext = new TruckDetailsViewModel();
 		}
 	}
 }

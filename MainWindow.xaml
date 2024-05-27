@@ -62,7 +62,7 @@
             <Button
                 Background="Transparent"
                 BorderThickness="0"
-                Click="Button_Click">
+                Command="{Binding OpenJobCardViewCommand}">
                 <StackPanel Orientation="Vertical">
                     <Image
                         Width="80"
@@ -94,7 +94,7 @@
             <Button
                 Background="Transparent"
                 BorderThickness="0"
-                Click="View_Entries">
+                Command="{Binding OpenEntryViewCommand}">
                 <StackPanel Orientation="Vertical">
                     <Image
                         Width="80"
@@ -126,7 +126,7 @@
             <Button
                 Background="Transparent"
                 BorderThickness="0"
-                Click="ViewReport_Click">
+                Command="{Binding OpenReportViewCommand}">
                 <StackPanel Orientation="Vertical">
                     <Image
                         Width="80"
@@ -155,10 +155,7 @@
             Background="#f2f4f7"
             BorderThickness="1"
             CornerRadius="10">
-            <Button
-                Background="Transparent"
-                BorderThickness="0"
-                Click="View_Entries">
+            <Button Background="Transparent" BorderThickness="0">
                 <StackPanel Orientation="Vertical">
                     <Image
                         Width="80"
@@ -187,10 +184,7 @@
             Background="#f2f4f7"
             BorderThickness="1"
             CornerRadius="10">
-            <Button
-                Background="Transparent"
-                BorderThickness="0"
-                Click="View_Entries">
+            <Button Background="Transparent" BorderThickness="0">
                 <StackPanel Orientation="Vertical">
                     <Image
                         Width="80"
@@ -222,7 +216,7 @@
             <Button
                 Background="Transparent"
                 BorderThickness="0"
-                Click="View_Dashboard">
+                Command="{Binding OpenDashBoardViewCommand}">
                 <StackPanel Orientation="Vertical">
                     <Image
                         Width="80"

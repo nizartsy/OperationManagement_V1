@@ -1,73 +1,90 @@
-﻿using System.Windows.Input;
+﻿using System.IO;
+using System.Text;
+using System.Windows.Input;
 using OperationManagement_UI.Command;
 using OperationManagement_UI.Helper;
+using OperationManagement_UI.Interface;
 
 namespace OperationManagement_UI.ViewModel
 {
 	public class JobCardMainViewModel : ViewModelBase
 	{
-		public JobCardViewModel JobCardViewModel { get; }
-		public ConsigneeDetailsViewModel ConsigneeDetailsViewModel { get; }
-		public ConsignmentDetailsViewModel ConsignmentDetailsViewModel { get; }
-		public ShipperDetailsViewModel ShippingDetailsViewModel;
-		public CostDetailsViewModel CostDetailsViewModel { get; }
-		public SaleDetailsViewModel SaleDetailsViewModel { get; }
+		private readonly IDataAdapter _dataAdapter;
 
-		public TruckDetailsViewModel TruckDetailsViewModel;
-		private TruckDetailsViewModel _truckDetails;
-		public TruckDetailsViewModel TruckDetails
-		{
-			get => _truckDetails;
-			set => SetValue(ref _truckDetails, value, nameof(TruckDetails));
-		}
+		public JobCardViewModel? JobCardViewModel { get; }
+
+		public ConsigneeDetailsViewModel? ConsigneeDetailsViewModel { get; }
+
+		public ConsignmentDetailsViewModel? ConsignmentDetailsViewModel { get; }
+
+		public ShipperDetailsViewModel? ShipperDetailsViewModel { get; }
+
+		public CostDetailsViewModel? CostDetailsViewModel { get; }
+
+		public SaleDetailsViewModel? SaleDetailsViewModel { get; }
+
+		public TruckDetailsViewModel? TruckDetailsViewModel { get; }
 
 		public JobCardMainViewModel(
-			JobCardViewModel jobCardViewModel, 
-			ConsigneeDetailsViewModel consigneeDetailsViewModel, 
+			JobCardViewModel jobCardViewModel,
+			ConsigneeDetailsViewModel consigneeDetailsViewModel,
 			ConsignmentDetailsViewModel consignmentDetailsViewModel,
-			ShipperDetailsViewModel shipperDetailsViewModel, 
-			TruckDetailsViewModel truckDetailsViewModel, 
-			TruckDetailsViewModel truckDetails, 
+			ShipperDetailsViewModel shipperDetailsViewModel,
+			TruckDetailsViewModel truckDetailsViewModel,
 			SaleDetailsViewModel saleDetailsViewModel,
-			CostDetailsViewModel costDetailsViewModel
+			CostDetailsViewModel costDetailsViewModel,
+			IDataAdapter dataAdapter
 			)
 		{
+			_dataAdapter = dataAdapter;
+
 			JobCardViewModel = jobCardViewModel;
-			ConsigneeDetailsViewModel = consigneeDetailsViewModel;
+
 			ConsignmentDetailsViewModel = consignmentDetailsViewModel;
-			ShippingDetailsViewModel = shipperDetailsViewModel;
+
+			ConsigneeDetailsViewModel = consigneeDetailsViewModel;
+			ShipperDetailsViewModel = shipperDetailsViewModel;
+
 			TruckDetailsViewModel = truckDetailsViewModel;
 			SaleDetailsViewModel = saleDetailsViewModel;
 			CostDetailsViewModel = costDetailsViewModel;
-			_truckDetails = truckDetails;
-
-			TruckDetails = new TruckDetailsViewModel();
 
 			SaveJobCard = new RelayCommand(SaveJobCardDetails);
 		}
 
 		private void SaveJobCardDetails(object jobCard)
 		{
-			if (JobCardViewModel == null)
-				return;
+			var jsonString = new StringBuilder();
 
-			var jobCardJson = JsonHelper.GenerateJson(JobCardViewModel);
-			var consigneeJson = JsonHelper.GenerateJson(ConsigneeDetailsViewModel);
-			var consignmentJson = JsonHelper.GenerateJson(ConsignmentDetailsViewModel);
-			var shippingDetailsJson = JsonHelper.GenerateJson(ShippingDetailsViewModel);
-			var truckDetails = JsonHelper.GenerateJson(TruckDetailsViewModel);
-			var saleDetailsJson = JsonHelper.GenerateJson(SaleDetailsViewModel);
-			var costDetailsJson = JsonHelper.GenerateJson(CostDetailsViewModel);
+			jsonString = jsonString.Append(JobCardViewModel?.GetJsonString());
+			jsonString = jsonString.Append(ConsigneeDetailsViewModel?.GetJsonString());
+			jsonString = jsonString.Append(ConsignmentDetailsViewModel?.GetJsonString());
+			jsonString = jsonString.Append(ShipperDetailsViewModel?.GetJsonString());
+			jsonString = jsonString.Append(TruckDetailsViewModel?.GetJsonString());
+			jsonString = jsonString.Append(SaleDetailsViewModel?.GetJsonString());
+			jsonString = jsonString.Append(CostDetailsViewModel?.GetJsonString());
+
+			_dataAdapter.FileName = Path.GetTempFileName();
+			_dataAdapter.FilePath = Path.GetTempPath();
+
+			_dataAdapter.SaveData(jsonString.ToString());
 		}
 
-		public JobCardMainViewModel()
+		public JobCardMainViewModel(IDataAdapter dataAdapter)
 		{
-			ConsigneeDetailsViewModel = new ConsigneeDetailsViewModel();
-			ConsignmentDetailsViewModel = new ConsignmentDetailsViewModel();
-			ShippingDetailsViewModel = new ShipperDetailsViewModel();
-			TruckDetailsViewModel = new TruckDetailsViewModel();
+			_dataAdapter = dataAdapter;
+
 			JobCardViewModel = new JobCardViewModel();
-			TruckDetails = new TruckDetailsViewModel();
+
+			ConsignmentDetailsViewModel = new ConsignmentDetailsViewModel();
+
+			ShipperDetailsViewModel = new ShipperDetailsViewModel();
+			ConsigneeDetailsViewModel = new ConsigneeDetailsViewModel();
+
+			TruckDetailsViewModel = new TruckDetailsViewModel();
+			CostDetailsViewModel = new CostDetailsViewModel();
+			SaleDetailsViewModel = new SaleDetailsViewModel();
+
 
 			SaveJobCard = new RelayCommand(SaveJobCardDetails);
 		}
